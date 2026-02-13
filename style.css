@@ -1,7 +1,9 @@
 body{
-  font-family:sans-serif;
+  font-family: sans-serif;
   background-color: rgb(49, 49, 136);
+  margin: 0;
 }
+
 h1{
   font-size: 80px;
   text-align: center;
@@ -9,22 +11,27 @@ h1{
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 h1:hover{
-  font-size:85px;
+  font-size: 85px;
 }
+
 p{
   color: aliceblue;
   text-align: justify;
   max-width: 800px;
-  margin-left: 80px;
+  margin: 20px auto;   
 }
+
 img{
-  width:80%;
-  height:auto;
-  margin-left: 80px;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 20px auto;   
 }
+
 h2{
   font-size: 60px;
-  color:aliceblue;
+  color: aliceblue;
   text-align: center;
 }
